@@ -1,9 +1,7 @@
 -------------------------------------------------------
 -- 		DDL FOR STORE PROCEDURE 'SP_SERVICIOS'		 --
 -------------------------------------------------------
-CREATE OR REPLACE PROCEDURE SP_SERVICIOS	(pFechaInicio IN VARCHAR2
-											,pFechaFin IN VARCHAR2
-											,pIdServicio IN INT)
+CREATE OR REPLACE PROCEDURE SP_SERVICIOS	(pIdServicio IN INT)
 AS
 rc sys_refcursor;
 BEGIN
